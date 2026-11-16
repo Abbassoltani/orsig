@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Vazirmatn:wght@100..900&display=swap');
+@import './reset.css';
+
+
+
+
+:root {
+    --blue-color:#013781;
+    --white-color:#fff;
+    --gray-color:#9e9a9a;
+    --button-color:#bf6e11;
+
+    --primary-font: "Vazirmatn", sans-serif;
+
+
+}

@@ -1,14 +1,9 @@
 import Navbar from "./components/Navbar"
 import "flag-icons/css/flag-icons.min.css";
+import AppRoutes from "./routes/AppRoutes";
 
 
 
 export default function App() {
-  return (
-    <>
-    <Navbar/>
-      
-    
-          </>
-  )
+return <AppRoutes/>
 }

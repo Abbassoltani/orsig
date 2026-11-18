@@ -6,68 +6,111 @@
 /* navbar */
 
 
- .navbar-toggler  {
-        outline: none !important;
-        border: none !important;
-        box-shadow: none !important;
-        
-    }
+.navbar-toggler {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
 
-    .navbar-nav {
+.navbar-nav {
+    text-align: center;
+}
+
+.search-box input:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+
+/* Home */
+
+
+header{
+    height: auto;
+    background-image: url('../../public/assets/banner2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: contain;
+
+}
+
+
+
+
+
+
+.header-content h1{
+    font-size: 5rem;
+    font-family: var(--montsrat);
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -5px;
+    color: var(--blue-color);
+}
+
+
+
+@media (min-width:375px){
+    header {
+        background-image: url('../../public/assets/banner3.png') ;
+        background-position:center bottom ;
         text-align: center;
-    }
-
-    .search-box input:focus {
-        outline: none !important;
-        box-shadow: none;
-    
+        margin-top: 150px;
         
     }
 
-
-
-
-
-
-
-
-
-
-@media (max-width:991.98px){
-    .navbar-collapse {
-        overflow: hidden;
-    }
-
-    .navbar-collapse .navbar-nav , .search-box{
-        transform: translateX(-230px);
-        transition: all 0.3s ease;
-    }
-
-    .navbar-collapse.show .navbar-nav , .navbar-collapse.show .search-box{
-             transform: translateX(0px);
-             
-             
-    }
-
+.header-content {
+   transform: translateY(-150px);
+}
 
 }
 
 
+@media (min-width:375px){
+    header {
+        background-image: url('../../public/assets/banner3.png') ;
+        background-position:center bottom ;
+        text-align: center;
+        margin-top: 150px;
+        
+    }
 
-@media (min-width:'374px'){
-
-    /* navabr */
-      
-   
-
+.header-content {
+   transform: translateY(-150px);
+}
 
 }
 
-@media (min-width:992px){
-    .navbar-nav .nav-link {
-        font-size:0.8rem !important ;
+
+@media (min-width: 992px) {
+    header {
+        background-image: url('../../public/assets/banner2.png');
+        background-size: 100% auto !important;
+        background-position: center top;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: 70vh;
+        min-height: 0;
+        margin-top: 0;
+     
     }
 
+    .header-content {
+   transform: translate(70px , 90px);
+   text-align: left;
+}
 
-   
+}
+
+
+@media (min-width: 1512px) {
+
+
+    .header-content {
+   transform: translate(70px , 150px);
+  
+}
+
 }

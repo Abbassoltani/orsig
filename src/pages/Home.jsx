@@ -1,35 +1,46 @@
 import React from 'react'
+import Title from '../components/Title'
 import { Typewriter } from 'react-simple-typewriter'
+import AboutUs from '../components/AboutUs'
 
 function Home() {
   return (
     <>
-    <header className='container'>
-
+    <header>
+      <div className="container">
         <div className="header position-relative">
+          <div className="header-content position-absolute">
+            <h1>
 
+            <Typewriter
+              words={['ORSIG']}
+              loop={true}
+              delaySpeed={3000}
+            cursor={true}
+              typeSpeed={400}
+              deleteSpeed={70}
+              
+              />
+              </h1>
+            <h3>فیلترهای خودرویی و صنعتی اُرسیگ</h3>
+          </div>
         </div>
-    
-            <div className="header-content ">
-                <h1>
-                <Typewriter
-                    words={["ORSIG"]}
-                    delaySpeed={3000}
-                    loop={true}
-                    deleteSpeed={70}
-                    typeSpeed={40}
-                    cursor={true}
-
-                />
-
-                </h1>
-                <h3>فیلترهای خودرویی و صنعتی اُرسیگ</h3>
-            </div>
-
-  
+      </div>
     </header>
+    <div className="container">
+      
+    <Title 
+      titlenamefarsi='درباره ما'
+      titlenameEnglish='About Us'
+    />
 
-     
+    <AboutUs/>
+
+
+    </div>
+
+
+      
     </>
   )
 }

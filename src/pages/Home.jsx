@@ -2,6 +2,7 @@ import React from 'react'
 import Title from '../components/Title'
 import { Typewriter } from 'react-simple-typewriter'
 import AboutUs from '../components/AboutUs'
+import CardItem from '../components/CardItem'
 
 function Home() {
   return (
@@ -35,6 +36,23 @@ function Home() {
     />
 
     <AboutUs/>
+
+       <Title 
+      titlenamefarsi='محصولات ما'
+      titlenameEnglish='Our Services'
+    />  
+
+    <div className="card-home-wrapper d-flex justify-content-around">
+    <CardItem/>
+  
+
+    </div>
+
+          <Title 
+      titlenamefarsi='با ما بیشتر آشنا شوید'
+      titlenameEnglish='Get to know us better.'
+      
+    />
 
 
     </div>

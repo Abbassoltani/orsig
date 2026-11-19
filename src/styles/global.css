@@ -54,9 +54,124 @@ header {
 
 /* About us */
 
+.about-us {
+    background:linear-gradient(180deg, var(--white-color) , var(--gray-lightcolor));
+    padding: 30px 0;
+    border-radius: 0 0 20px 20px;
+}
+
 .about-us .aboutus-img img {
     width: 90%;
 }
+
+/* title  */
+
+.title-banner {
+    margin-top:80px;
+}
+/* card item  */
+.card {
+    min-height: 580px;
+    max-height: 600px;
+    min-width: 300px;
+    max-width: 300px;
+   
+    overflow: hidden;
+    border-radius: 15px;
+    
+    
+}
+
+.card-img-hover {
+    display: none;
+}
+
+.card:hover .card-img {
+   
+display: none;
+}
+
+.card:hover .card-img-hover {
+   
+display: block;
+}
+
+.card-img {
+    margin-top: -30px;
+}
+
+.card-content {
+    background-color:var(--gray-lightcolor);
+    width: 100%;
+    height: 220px;
+    bottom: 0;
+    left: 0;
+    border-radius: 45% 45% 0 0  ;
+    
+}
+
+.cart-content-img {
+    top: -100px;
+    left: 55px;
+    width: 60%;
+    margin-top: -30;
+}
+
+
+.card-content h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card-content-des h1{
+    margin-top: 70px !important;
+    color: red;
+    font-weight: 900;
+}
+.card-content p {
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: var(--primary-font);
+    letter-spacing: -2px;
+    padding: 0 30px;
+    font-weight: 700;
+}
+
+.card-content-des {
+    bottom: 0;
+}
+
+.card-content-wrapper {
+   
+    width: 100%;
+    height: 100%;
+}
+
+.card-content button {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

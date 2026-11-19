@@ -7,8 +7,8 @@ function AboutUs() {
         <div className="container">
 
        
-            <div className="row align-items-center">
-                   <div className="col-12 col-lg-6 aboutus-img">
+            <div className="row align-items-center g-5">
+                   <div className="col-12 col-lg-6 aboutus-img ">
                    
 <p className="aboutus-des">
   <strong>ORSIG نام تجاری متعلق به گروه صنعتی افق روشن شیمی است</strong>
@@ -23,7 +23,7 @@ function AboutUs() {
 </p>
 
                 </div>
-                <div className="col-12 col-lg-6 aboutus-img"  >
+                <div className="col-12 col-lg-6 aboutus-img "   >
                     <img src="../../public/assets/aboutus.png" className='img-fluid' alt="" />
                 </div>
 

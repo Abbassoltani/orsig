@@ -3,7 +3,7 @@ import React from 'react'
 function Title({titlenamefarsi , titlenameEnglish }) {
   return (
     <>
-    <div className="title-banner d-flex w-100 justify-content-center my-2">
+    <div className="title-banner d-flex w-100 justify-content-center ">
         <img src="../../public/assets/bordertitle-right.png" alt="" />
         <div className="title-content text-center">
             <h3>{titlenamefarsi}</h3>

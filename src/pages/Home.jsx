@@ -3,6 +3,7 @@ import Title from '../components/Title'
 import { Typewriter } from 'react-simple-typewriter'
 import AboutUs from '../components/AboutUs'
 import CardItem from '../components/CardItem'
+import Services from '../components/Services'
 
 function Home() {
   return (
@@ -42,7 +43,7 @@ function Home() {
       titlenameEnglish='Our Services'
     />  
 
-    <div className="card-home-wrapper d-flex justify-content-around">
+    <div className="row card-home-wrapper d-flex justify-content-around">
     <CardItem/>
   
 
@@ -53,6 +54,21 @@ function Home() {
       titlenameEnglish='Get to know us better.'
       
     />
+    <div className="video-box">
+    <video controls poster="../../public/assets/logo.png" 
+    src='../../public/assets/orsigvideo1.mp4' type='video/mp4'></video>  
+
+    </div>
+
+              <Title 
+      titlenamefarsi='صنایع و کاربردها'
+      titlenameEnglish='Industries & Applications.'
+      
+    />
+    <div className="row service-section justify-content-around gap-1">
+      <Services/>
+ 
+    </div>
 
 
     </div>

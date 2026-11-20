@@ -4,6 +4,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import AboutUs from '../components/AboutUs'
 import CardItem from '../components/CardItem'
 import Services from '../components/Services'
+import ContactUs from '../components/ContactUs'
 
 function Home() {
   return (
@@ -69,6 +70,13 @@ function Home() {
       <Services/>
  
     </div>
+
+                  <Title 
+      titlenamefarsi='ارتباط با ما'd
+      titlenameEnglish='Contact Us'
+      
+    />
+    <ContactUs/>
 
 
     </div>

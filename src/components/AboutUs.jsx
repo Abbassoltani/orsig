@@ -1,4 +1,3 @@
-import React from 'react'
 
 function AboutUs() {
   return (
@@ -24,7 +23,7 @@ function AboutUs() {
 
                 </div>
                 <div className="col-12 col-lg-6 aboutus-img "   >
-                    <img src="../../public/assets/aboutus.png" className='img-fluid' alt="" />
+                    <img src="/assets/aboutus.png" className='img-fluid' alt="" />
                 </div>
 
         </div>

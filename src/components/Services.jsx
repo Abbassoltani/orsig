@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Services() {
   return (
@@ -7,7 +6,7 @@ function Services() {
             <div className="col-12 col-md-4 service-card-wrapper position-relative">
                 <div className="row">
                     <div className="col-4 service-content-img position-absolute">
-                        <img src="../../public/assets/servicecard1.png" alt="" />
+                        <img src="/assets/servicecard1.png" alt="" />
                     </div>
                     <div className="col-8">
                         <div className="services-content position-absolute">
@@ -24,7 +23,7 @@ function Services() {
                            <div className="col-12 col-md-4 service-card-wrapper position-relative">
                 <div className="row">
                     <div className="col-4 service-content-img position-absolute">
-                        <img src="../../public/assets/servicecard2.png" alt="" />
+                        <img src="/assets/servicecard2.png" alt="" />
                     </div>
                     <div className="col-8">
                         <div className="services-content position-absolute">
@@ -42,7 +41,7 @@ function Services() {
                            <div className="col-12 col-md-4 service-card-wrapper position-relative">
                 <div className="row">
                     <div className="col-4 service-content-img position-absolute">
-                        <img src="../../public/assets/servicecard3.png" alt="" />
+                        <img src="/assets/servicecard3.png" alt="" />
                     </div>
                     <div className="col-8">
                         <div className="services-content position-absolute">
@@ -60,7 +59,7 @@ function Services() {
                            <div className="col-12 col-md-4 service-card-wrapper position-relative">
                 <div className="row">
                     <div className="col-4 service-content-img position-absolute">
-                        <img src="../../public/assets/servicecard4.png" alt="" />
+                        <img src="/assets/servicecard4.png" alt="" />
                     </div>
                     <div className="col-8">
                         <div className="services-content position-absolute">
@@ -78,7 +77,7 @@ function Services() {
                            <div className="col-12 col-md-4 service-card-wrapper position-relative">
                 <div className="row">
                     <div className="col-4 service-content-img position-absolute">
-                        <img src="../../public/assets/servicecard5.png" alt="" />
+                        <img src="/assets/servicecard5.png" alt="" />
                     </div>
                     <div className="col-8">
                         <div className="services-content position-absolute">
@@ -96,7 +95,7 @@ function Services() {
                            <div className="col-12 col-md-4 service-card-wrapper position-relative">
                 <div className="row">
                     <div className="col-4 service-content-img position-absolute">
-                        <img src="../../public/assets/servicecard6.png" alt="" />
+                        <img src="/assets/servicecard6.png" alt="" />
                     </div>
                     <div className="col-8">
                         <div className="services-content position-absolute">

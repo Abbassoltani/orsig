@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar"
 import "flag-icons/css/flag-icons.min.css";
 import AppRoutes from "./routes/AppRoutes";
 

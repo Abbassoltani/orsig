@@ -1,4 +1,3 @@
-import React from 'react'
 import Title from '../components/Title'
 import { Typewriter } from 'react-simple-typewriter'
 import AboutUs from '../components/AboutUs'
@@ -55,9 +54,16 @@ function Home() {
       titlenameEnglish='Get to know us better.'
       
     />
-    <div className="video-box">
-    <video controls poster="../../public/assets/logo.png" 
-    src='../../public/assets/orsigvideo1.mp4' type='video/mp4'></video>  
+    <div className="video-box position-relative">
+    <video controls >
+      <source src='/assets/orsigvideo1.mp4' type='video/mp4'/>
+      </video>  
+
+        <img
+    src="/assets/logo.png"
+    className="video-logo"
+    alt="ORSIG"
+  />
 
     </div>
 

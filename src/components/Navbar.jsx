@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import language from '../database/language.json'
 
 function Navbar() {
@@ -13,6 +14,9 @@ function Navbar() {
         ))}
 
       </div>
+      <div className="container-fluid navbar">
+
+      
       <nav className="container navbar  navbar-expand-lg navbar-light d-flex flex-column gap-3 flex-lg-row">
       
 
@@ -20,9 +24,9 @@ function Navbar() {
 
           
           
-              <a className="navbar-brand p-0 m-0" href="#">
+              <Link className="navbar-brand p-0 m-0" to="#">
             <img src="/assets/logo.png" alt="logo" className="img-fluid" style={{ maxHeight: '40px' }} />
-          </a>
+          </Link>
 
           
         
@@ -41,12 +45,12 @@ function Navbar() {
           {/* لیست منو */}
           <div className="collapse navbar-collapse" id="navbarnav">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item"><a href="#" className="nav-link">صفحه اصلی</a></li>
-              <li className="nav-item"><a href="#" className="nav-link">محصولات</a></li>
-              <li className="nav-item"><a href="#" className="nav-link">صادرات و همکاری</a></li>
-              <li className="nav-item"><a href="#" className="nav-link">دانشی فنی و کاتالوگ ها</a></li>
-              <li className="nav-item"><a href="#" className="nav-link">درباره ما</a></li>
-              <li className="nav-item"><a href="#" className="nav-link">تماس با ما</a></li>
+              <li className="nav-item"><Link to="/" className="nav-link active">صفحه اصلی</Link></li>
+              <li className="nav-item"><Link to="#" className="nav-link">محصولات</Link></li>
+              <li className="nav-item"><Link to="#" className="nav-link">صادرات و همکاری</Link></li>
+              <li className="nav-item"><Link to="#" className="nav-link">دانشی فنی و کاتالوگ ها</Link></li>
+              <li className="nav-item"><Link to="#" className="nav-link">درباره ما</Link></li>
+              <li className="nav-item"><Link to="#" className="nav-link">تماس با ما</Link></li>
             </ul>
             <div className="search-box position-relative">
               <i class="ri-search-line position-absolute translate-middle top-50"></i>
@@ -56,7 +60,7 @@ function Navbar() {
 
       
       </nav>
-
+</div>
 
     </>
   )
